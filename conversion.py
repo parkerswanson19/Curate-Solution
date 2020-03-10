@@ -70,7 +70,8 @@ def toCheck(string):
     return to_return
 
 def main():
-    print("The phonetic representation is: " + toCheck(input("Please enter a dollar amount: ")))
+    print("The phonetic representation is: " + toCheck(input("Please enter a dollar "
+                                                             "amount(0 - 999,999,999,999,999.99): ")))
 
 if __name__ == '__main__':
     main()
